@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by chenjinming on 2017/2/27.
  */
-@RestController
+@RestController // @Controller + @ResponseBody
 @RequestMapping("/rest")
 public class DemoRestController {
 
